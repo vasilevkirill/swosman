@@ -1,0 +1,2 @@
+# swosman
+Manage SwOS devices

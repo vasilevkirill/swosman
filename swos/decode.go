@@ -140,3 +140,7 @@ func getBoolFromUint32(u uint32, i uint8) bool {
 	}
 	return true
 }
+
+func getLacp(u uint8, i uint8) {
+
+}

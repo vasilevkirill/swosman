@@ -11,7 +11,7 @@ import (
 
 func main() {
 	swosClientConfig := swos.Config{}
-	swosClientConfig.Host = "172.20.17.15"
+	swosClientConfig.Host = "172.20.17.213"
 	swosClientConfig.HttpProtocol = "http"
 	swosClientConfig.Port = 80
 	swosClientConfig.Username = "admin"
@@ -21,21 +21,18 @@ func main() {
 		log.Println(err)
 		return
 	}
-	swosInterfaces, err := client.InterfaceGetAllSlice()
-	if err != nil {
-		log.Println(err)
-		return
-	}
-	filejson, err := json.MarshalIndent(swosInterfaces, "", " ")
+
+	filejson, err := json.MarshalIndent(client.Sw, "", " ")
 	if err != nil {
 		log.Println(err)
 		return
 	}
 	_ = ioutil.WriteFile("./raw/swosInterfaces.json", filejson, 0644)
-	fileyaml, err := yaml.Marshal(swosInterfaces)
+	fileyaml, err := yaml.Marshal(client.Sw)
 	if err != nil {
 		log.Println(err)
 		return
 	}
 	_ = ioutil.WriteFile("./raw/swosInterfaces.yaml", fileyaml, 0644)
+
 }

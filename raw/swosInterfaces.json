@@ -1,210 +1,362 @@
-[
- {
-  "id": 0,
-  "adminstatus": true,
-  "description": "Port1",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
+{
+ "Links": [
+  {
+   "Id": 0,
+   "AdminStatus": true,
+   "Description": "Port1",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 1,
+   "AdminStatus": true,
+   "Description": "Port2",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 2,
+   "AdminStatus": true,
+   "Description": "Port3",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 3,
+   "AdminStatus": true,
+   "Description": "Port4",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 4,
+   "AdminStatus": true,
+   "Description": "Port5",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 5,
+   "AdminStatus": true,
+   "Description": "Port6",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 6,
+   "AdminStatus": true,
+   "Description": "Port7",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 7,
+   "AdminStatus": true,
+   "Description": "Port8",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 8,
+   "AdminStatus": true,
+   "Description": "Port9",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 9,
+   "AdminStatus": true,
+   "Description": "Port10",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 10,
+   "AdminStatus": true,
+   "Description": "Port11",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 11,
+   "AdminStatus": true,
+   "Description": "Port12",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 12,
+   "AdminStatus": true,
+   "Description": "Port13",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 13,
+   "AdminStatus": true,
+   "Description": "Port14",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 14,
+   "AdminStatus": true,
+   "Description": "Port15",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 15,
+   "AdminStatus": true,
+   "Description": "Port16",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 16,
+   "AdminStatus": true,
+   "Description": "Port17",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 17,
+   "AdminStatus": true,
+   "Description": "Port18",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 18,
+   "AdminStatus": true,
+   "Description": "Port19",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 19,
+   "AdminStatus": true,
+   "Description": "Port20",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 20,
+   "AdminStatus": true,
+   "Description": "Port21",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 21,
+   "AdminStatus": true,
+   "Description": "Port22",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 22,
+   "AdminStatus": true,
+   "Description": "Port23",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 23,
+   "AdminStatus": true,
+   "Description": "Port24",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 24,
+   "AdminStatus": true,
+   "Description": "SFP1",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  },
+  {
+   "Id": 25,
+   "AdminStatus": true,
+   "Description": "SFP2",
+   "AutoNegotiation": true,
+   "FlowControlTx": true,
+   "FlowControlRx": false
+  }
+ ],
+ "PortIsolations": null,
+ "Lags": [
+  {
+   "Id": 0,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 1,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 2,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 3,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 4,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 5,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 6,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 7,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 8,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 9,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 10,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 11,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 12,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 13,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 14,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 15,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 16,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 17,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 18,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 19,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 20,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 21,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 22,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 23,
+   "Mode": "\u0000",
+   "Group": 0
+  },
+  {
+   "Id": 24,
+   "Mode": "\u0001",
+   "Group": 0
+  },
+  {
+   "Id": 25,
+   "Mode": "\u0002",
+   "Group": 0
+  }
+ ],
+ "Forwardings": null,
+ "Rstp": {
+  "General": {
+   "BridgePriority": 0,
+   "PortCostMode": ""
+  },
+  "Ports": null
  },
- {
-  "id": 1,
-  "adminstatus": true,
-  "description": "Port2",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 2,
-  "adminstatus": true,
-  "description": "Port3",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 3,
-  "adminstatus": true,
-  "description": "Port4",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 4,
-  "adminstatus": true,
-  "description": "Port5",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 5,
-  "adminstatus": true,
-  "description": "Port6",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 6,
-  "adminstatus": true,
-  "description": "Port7",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 7,
-  "adminstatus": true,
-  "description": "Port8",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 8,
-  "adminstatus": true,
-  "description": "Port9",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 9,
-  "adminstatus": true,
-  "description": "Port10",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 10,
-  "adminstatus": true,
-  "description": "Port11",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 11,
-  "adminstatus": true,
-  "description": "Port12",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 12,
-  "adminstatus": true,
-  "description": "Port13",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 13,
-  "adminstatus": true,
-  "description": "Port14",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 14,
-  "adminstatus": true,
-  "description": "Port15",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 15,
-  "adminstatus": true,
-  "description": "Port16",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 16,
-  "adminstatus": true,
-  "description": "Port17",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 17,
-  "adminstatus": true,
-  "description": "Port18",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 18,
-  "adminstatus": true,
-  "description": "Port19",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 19,
-  "adminstatus": true,
-  "description": "Port20",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 20,
-  "adminstatus": true,
-  "description": "Port21",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 21,
-  "adminstatus": true,
-  "description": "Port22",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 22,
-  "adminstatus": true,
-  "description": "Port23",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 23,
-  "adminstatus": true,
-  "description": "Port24",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 24,
-  "adminstatus": true,
-  "description": "SFP1",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
- },
- {
-  "id": 25,
-  "adminstatus": true,
-  "description": "SFP2",
-  "AutoNegotiation": true,
-  "FlowControlTx": true,
-  "FlowControlRx": false
+ "Vlan": null,
+ "Vlans": null,
+ "Hosts": null,
+ "Snmp": {
+  "Enable": false,
+  "Community": "",
+  "ContactInfo": "",
+  "Location": ""
  }
-]
+}

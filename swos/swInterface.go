@@ -5,16 +5,17 @@ import (
 )
 
 // InterfaceGetFromIndex getting interface information from index
-// index this uint8 starting 0
+// this uint8 starting 0
 func (c *Client) InterfaceGetFromIndex(index uint8) (Interface, error) {
 
 	var Interface Interface
 	Interface.Index = index
-	Interface.Enabled = getBoolFromUint32(c.Config.linkb.En, index)
-	Interface.Name = c.Config.linkb.Nm[index]
-	Interface.AutoNegotiation = getBoolFromUint32(c.Config.linkb.An, index)
-	Interface.FlowControlTx = getBoolFromUint32(c.Config.linkb.Fctc, index)
-	Interface.FlowControlRx = getBoolFromUint32(c.Config.linkb.Fctr, index)
+	Interface.Enabled = getBoolFromUint32(c.Config.Raw.linkb.En, index)
+	Interface.Name = c.Config.Raw.linkb.Nm[index]
+	Interface.AutoNegotiation = getBoolFromUint32(c.Config.Raw.linkb.An, index)
+	Interface.FlowControlTx = getBoolFromUint32(c.Config.Raw.linkb.Fctc, index)
+	Interface.FlowControlRx = getBoolFromUint32(c.Config.Raw.linkb.Fctr, index)
+
 	return Interface, nil
 }
 
@@ -22,7 +23,7 @@ func (c *Client) InterfaceGetFromIndex(index uint8) (Interface, error) {
 func (c *Client) InterfaceGetAllSlice() ([]Interface, error) {
 	var x []Interface
 
-	for i := 0; i < int(c.Config.linkb.Prt); i++ {
+	for i := 0; i < int(c.Config.Raw.linkb.Prt); i++ {
 		swi, err := c.InterfaceGetFromIndex(uint8(i))
 		if err != nil {
 			return nil, err
@@ -33,13 +34,13 @@ func (c *Client) InterfaceGetAllSlice() ([]Interface, error) {
 }
 
 func (c *Client) InterfaceSetNameFromIndex(name string, index uint8) error {
-	if len(c.Config.linkb.Nm) < int(index) {
-		return errors.New("Index not isset")
+	if len(c.Config.Raw.linkb.Nm) < int(index) {
+		return errors.New("index not set")
 	}
-	if c.Config.linkb.Nm[index] == name {
+	if c.Config.Raw.linkb.Nm[index] == name {
 		return nil
 	}
-	c.Config.linkb.Nm[index] = name
+	c.Config.Raw.linkb.Nm[index] = name
 	if err := c.pushLinkb(); err != nil {
 		return err
 	}
